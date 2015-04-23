@@ -1,0 +1,13 @@
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\bin\Debug\bank.exe.config
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\MainWindow.baml
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\MainWindow.g.cs
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\App.g.cs
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank_MarkupCompile.cache
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.g.resources
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.Properties.Resources.resources
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.csproj.GenerateResource.Cache
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\bin\Debug\bank.exe
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\bin\Debug\bank.pdb
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.exe
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.pdb
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\obj\Debug\bankTest.csprojResolveAssemblyReference.cache
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\bin\Debug\bankTest.dll
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\bin\Debug\bankTest.pdb
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\bin\Debug\bank.exe
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\bin\Debug\bank.pdb
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\obj\Debug\bankTest.dll
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bankTest\obj\Debug\bankTest.pdb
