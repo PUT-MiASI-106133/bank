@@ -12,9 +12,9 @@ namespace bank
        // private bool toKIR;
        // private int bankID;
         private CBank bankUtility;
-        private CKIR kirUtility;
+        private IKIRMediator kirUtility;
 
-        public CKIRProxy(CBank bu, CKIR ku)
+        public CKIRProxy(CBank bu, IKIRMediator ku)
         {
             this.bankUtility = bu;
             this.kirUtility = ku;

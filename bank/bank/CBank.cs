@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace bank
 {
-    public class CBank : IAccount
+    public class CBank : IAccount, IBank
     {
         private List<CAccount> accounts;
         private List<CCustomer> customers;
         private CKIRProxy kirProxy;
 
-        public CBank(CKIR kir)
+        public CBank(IKIRMediator kir)
         {
             this.accounts = new List<CAccount>();
             this.customers = new List<CCustomer>();
@@ -70,7 +70,7 @@ namespace bank
             return this.customers;
         }
 
-        public void AddTransfer(List<COperation> transfer)
+        public void Receive(List<COperation> transfer)
         {
             if (transfer != null)
             {
@@ -78,6 +78,11 @@ namespace bank
             }
             else
                 throw new Exception("Transfer failed");
+        }
+
+        public void Send()
+        {
+            this.kirProxy.Send();
         }
 
         public void PayIn(CAccount acc, decimal amount)

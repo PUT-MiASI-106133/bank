@@ -54,22 +54,28 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="CAverageInterest.cs" />
+    <Compile Include="CBigTransfer.cs" />
     <Compile Include="CHighInterest.cs" />
     <Compile Include="CHistory.cs" />
     <Compile Include="CKIR.cs" />
     <Compile Include="CKIRProxy.cs" />
     <Compile Include="CLowInterest.cs" />
     <Compile Include="CMonthRaport.cs" />
+    <Compile Include="CNormalTransfer.cs" />
     <Compile Include="COperation.cs" />
     <Compile Include="CPayInRaport.cs" />
     <Compile Include="CRaportDisplayVisitor.cs" />
     <Compile Include="CTransferRaport.cs" />
     <Compile Include="DecoratorDebit.cs" />
     <Compile Include="IAccount.cs" />
+    <Compile Include="IBank.cs" />
+    <Compile Include="IKIRMediator.cs" />
     <Compile Include="IRaport.cs" />
     <Compile Include="IRaportVisitor.cs" />
     <Compile Include="IState.cs" />
+    <Compile Include="ITransferResposibility.cs" />
     <Compile Include="Transfer.cs" />
+    <Compile Include="US.cs" />
     <Compile Include="WithDraw.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

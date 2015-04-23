@@ -9,14 +9,14 @@ namespace bank
     public class CKIR
     {
         private List<COperation> listKIR;
-        private Dictionary<CBank, List<COperation>> listOfBanks;
+        private Dictionary<IBank, List<COperation>> listOfBanks;
         private List<COperation> sendList;
 
         public CKIR()
         {
             this.sendList = new List<COperation>();
             this.listKIR = new List<COperation>();
-            this.listOfBanks = new Dictionary<CBank, List<COperation>>();
+            this.listOfBanks = new Dictionary<IBank, List<COperation>>();
         }
 
         public void AddToKIR(List<COperation> pack)
@@ -24,7 +24,7 @@ namespace bank
             this.listKIR.AddRange(pack);
         }
 
-        public void AddBank(CBank bank)
+        public void AddBank(IBank bank)
         {
             foreach (var v in this.listOfBanks)
             {
@@ -34,7 +34,7 @@ namespace bank
             this.listOfBanks.Add(bank, new List<COperation>());
         }
 
-        private void addOperation(CBank bu, COperation o)
+        private void addOperation(IBank bu, COperation o)
         {
             listOfBanks[bu].Add(o);
         }
@@ -53,7 +53,7 @@ namespace bank
             {
                 if (bank.Value != null)
                 {
-                    bank.Key.AddTransfer(bank.Value);
+                    bank.Key.Receive(bank.Value);
                 }
             }
         }
@@ -73,7 +73,7 @@ namespace bank
             return this.listKIR;
         }
 
-        public Dictionary<CBank, List<COperation>> GetListOfBanks()
+        public Dictionary<IBank, List<COperation>> GetListOfBanks()
         {
             return this.listOfBanks;
         }
