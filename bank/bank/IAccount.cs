@@ -8,6 +8,6 @@ namespace bank
 {
     public interface IAccount
     {
-        bool WithDraw(CAccount acc, decimal amount);
+        bool WithDraw(CBank bank, CAccount acc, decimal amount);
     }
 }

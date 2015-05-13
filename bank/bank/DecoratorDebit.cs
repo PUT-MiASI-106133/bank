@@ -19,7 +19,7 @@ namespace bank
 
         public bool WithDraw(CBank bank, CAccount acc, decimal amount)
         {
-            if (this.bank.WithDraw(acc, amount)) return true;
+            if (this.bank.WithDraw(bank, acc, amount)) return true;
             else
             {
                 WithDraw withdraw = new WithDraw(amount, acc);

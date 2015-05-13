@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bank
 {
-    public class CKIR
+    public class CKIR : IKIRMediator
     {
         private List<COperation> listKIR;
         private Dictionary<IBank, List<COperation>> listOfBanks;
@@ -58,15 +58,15 @@ namespace bank
             }
         }
 
-        /*public bool IsBankExist(int ID)
+        public bool IsBankExist(CBank bank)
         {
             foreach (var v in this.listOfBanks)
             {
-                if (v.Key.GetBankID() == ID)
+                if (v.Key == bank)
                     return true;
             }
             return false;
-        }*/
+        }
 
         public List<COperation> GetListKir()
         {

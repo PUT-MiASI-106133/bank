@@ -102,7 +102,7 @@ namespace bank
            // to.GetHistory().AddToHistory(transfer);
         }
 
-        public bool WithDraw(CAccount acc, decimal amount)
+        public bool WithDraw(CBank bank, CAccount acc, decimal amount)
         {
             bool positive = false;
             WithDraw withdraw = new WithDraw(amount, acc);

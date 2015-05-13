@@ -9,7 +9,7 @@ namespace bank
     public interface IKIRMediator
     {
         void AddToKIR(List<COperation> pack);
-        void AddBank(CBank bank);
+        void AddBank(IBank bank);
         void Send();
     }
 }

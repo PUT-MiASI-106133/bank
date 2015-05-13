@@ -67,13 +67,15 @@ namespace bank
 
         public bool substrMoney(decimal amount)
         {
-            bool success = false;
+           /* bool success = false;
             if (saldo >= amount)
             {
                 this.saldo -= amount;
                 success = true;
             }
-            return success;
+            return success;*/
+            this.saldo -= amount;
+            return true;
         }
 
         public void DoOperation(IOperation oper)
