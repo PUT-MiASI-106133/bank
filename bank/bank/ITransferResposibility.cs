@@ -10,5 +10,6 @@ namespace bank
     {
         void setNextTransferResp(ITransferResposibility next);
         void transfer(Transfer transfer);
+        void SetUS(US us);
     }
 }

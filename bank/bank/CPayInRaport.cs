@@ -8,9 +8,9 @@ namespace bank
 {
     public class CPayInRaport : IRaport
     {
-        public void accept(IRaportVisitor vis, CHistory history)
+        public string accept(IRaportVisitor vis, CHistory history)
         {
-            vis.visit(this, history);
+            return vis.visit(this, history);
         }
     }
 }

@@ -18,11 +18,11 @@ namespace bank
             {
                 if (month == op.GetDate().Month)
                 {
-                    raport += op.GetAmount() + " | ";
+                    raport += op.GetAmount() + "-";
                     raport += op.GetOperationType() + "...";
                 }
             }
-            return raport;
+            return raport.Substring(0, raport.Length - 3);
         }
 
         public string visit(CPayInRaport payinraport, CHistory history)
@@ -33,11 +33,11 @@ namespace bank
             {
                 if (op.GetOperationType() == "PAYIN")
                 {
-                    raport += op.GetAmount() + " | ";
+                    raport += op.GetAmount() + "-";
                     raport += op.GetOperationType() + "...";
                 } 
             }
-            return raport;
+            return raport.Substring(0, raport.Length - 3);
         }
 
         public string visit(CTransferRaport transferraport, CHistory history)
@@ -48,11 +48,11 @@ namespace bank
             {
                 if (op.GetOperationType() == "TRANSFER")
                 {
-                    raport += op.GetAmount() + " | ";
+                    raport += op.GetAmount() + "-";
                     raport += op.GetOperationType() + "...";
                 } 
             }
-            return raport;
+            return raport.Substring(0, raport.Length-3);
         }
     }
 }

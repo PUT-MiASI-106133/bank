@@ -8,6 +8,6 @@ namespace bank
 {
     public interface IRaport
     {
-        void accept(IRaportVisitor vis, CHistory history);
+        string accept(IRaportVisitor vis, CHistory history);
     }
 }

@@ -24,5 +24,11 @@ namespace bank
             }
 
         }
+
+
+        public void SetUS(US us)
+        {
+            return;
+        }
     }
 }

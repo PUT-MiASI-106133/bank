@@ -93,13 +93,14 @@ namespace bank
             acc.GetHistory().AddToHistory(payin);
         }
 
-        public void Transfer(CAccount from, CAccount to, decimal amount)
+        public Transfer Transfer(CAccount from, CAccount to, decimal amount)
         {
             Transfer transfer = new Transfer(to, amount, from); 
             IOperation oper = transfer;
             from.DoOperation(oper);
             from.GetHistory().AddToHistory(transfer);
            // to.GetHistory().AddToHistory(transfer);
+            return transfer;
         }
 
         public bool WithDraw(CBank bank, CAccount acc, decimal amount)
