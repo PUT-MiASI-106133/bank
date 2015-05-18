@@ -13,6 +13,7 @@ namespace bank
         {
             // configure IMailSender and ILogging to resolve to their specified concrete implementations
             Bind<IBank>().To<CBank>();
+            Bind<IKIRMediator>().To<CKIR>();
         }
     }
 }
