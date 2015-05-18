@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using bank;
+using Ninject;
+using System.Reflection;
 
 namespace bankTest
 {
@@ -137,6 +139,29 @@ namespace bankTest
             Assert.IsTrue(KIR.IsBankExist(bank1));
             Assert.IsTrue(KIR.IsBankExist(bank2));
             
+        }
+
+        [TestMethod]
+        public void DI_KIRAddBankTest()
+        {
+            //Arrange
+            CKIR KIR = new CKIR();
+
+            var kernel = new StandardKernel();
+            kernel.Load(Assembly.GetExecutingAssembly());
+
+            var bank1 = kernel.Get<IBank>();
+            var bank2 = kernel.Get<IBank>();
+
+
+            KIR.AddBank(bank1);
+            KIR.AddBank(bank2);
+
+            //Assert
+            Assert.IsTrue(KIR.IsBankExist(bank1));
+            Assert.IsTrue(KIR.IsBankExist(bank2));
+            Assert.IsTrue(bank1.GetType() == typeof(CBank)); 
+
         }
 
 

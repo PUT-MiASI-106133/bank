@@ -11,3 +11,5 @@ D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\ba
 D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.exe
 D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.pdb
 D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\obj\Debug\bank.csprojResolveAssemblyReference.cache
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\bin\Debug\Ninject.dll
+D:\Studia\INFORMATYKA\MAG\Modelowanie i analiza systemow informatycznych\bank\bank\bank\bin\Debug\Ninject.xml

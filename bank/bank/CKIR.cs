@@ -58,7 +58,7 @@ namespace bank
             }
         }
 
-        public bool IsBankExist(CBank bank)
+        public bool IsBankExist(IBank bank)
         {
             foreach (var v in this.listOfBanks)
             {
